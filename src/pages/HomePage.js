@@ -1,4 +1,5 @@
 import axios from "axios";
+import dotenv from "dotenv";
 import React, { useEffect, useState } from "react";
 import toast from "react-hot-toast";
 import { useDispatch } from "react-redux";
@@ -9,6 +10,8 @@ import Loader from "../components/loader/Loader";
 import { addAllProducts, addProduct } from "../redux/reducer/cartSlice";
 import "../style/Home.css";
 import "../style/Products.css";
+
+dotenv.config();
 
 const HomePage = () => {
 
