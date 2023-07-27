@@ -25,7 +25,7 @@ const Footer = () => {
                 All Right Reserved &copy;{" "}
                 <a
                     style={{ textDecoration: "none" }}
-                    href="https://www.linkedin.com/in/arickahamed/"
+                    href="https://www.fiverr.com/arick_ahamed/html-fixer-css-fixer-javascript-error-solve-code-fix"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
