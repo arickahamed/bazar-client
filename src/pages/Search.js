@@ -1,4 +1,5 @@
 import React from "react";
+import toast from "react-hot-toast";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import Layout from "../components/Layout";
@@ -14,6 +15,7 @@ const Search = () => {
 
     const handleAddProduct = (product) => {
         dispatch(addProduct(product));
+        toast.success(`${product.name} added to cart`);
     };
 
     // handle back button
