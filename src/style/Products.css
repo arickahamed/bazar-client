@@ -1,0 +1,32 @@
+.admin-product-list {
+    width: 90%;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.admin-product-list h3 {
+    text-align: center;
+}
+
+.product-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.product-card {
+    margin: 0.5rem 0.3rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.product-card img {
+    height: 200px;
+}
+
+.product-link {
+    text-decoration: none;
+    color: rgb(42, 94, 66);
+}

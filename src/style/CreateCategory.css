@@ -1,0 +1,25 @@
+.category-table {
+    width: 80%;
+    margin: 1rem auto;
+}
+
+.td-name {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.empty-category {
+    color: rgb(43, 143, 88);
+    width: 90%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.create-category-loader {
+    min-height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

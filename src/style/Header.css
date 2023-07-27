@@ -1,0 +1,29 @@
+.logo-user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.dashboard-btn {
+    padding: 0 0.3rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.userName_nav {
+    text-align: center;
+    color: white;
+    letter-spacing: 0.3rem;
+}
+
+.userName_nav2 {
+    color: white;
+    letter-spacing: 0;
+}
+
+.cart-product-number {
+    position: absolute;
+    top: 3%;
+    right: 18%;
+}

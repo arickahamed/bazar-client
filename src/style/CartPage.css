@@ -1,0 +1,40 @@
+.cart h2 {
+    text-align: center;
+}
+
+.cart-card {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.cart-element {
+    background-color: rgb(181, 240, 181);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0.8rem auto;
+    padding: 0.5rem;
+}
+
+.cart-element img {
+    height: 80px;
+}
+
+.cart-add-remove-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sub-total {
+    border-radius: 10px;
+    width: 80%;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: rgb(233, 206, 156);
+}
+
+.cart-payment-btn {
+    width: 100%;
+}

@@ -1,0 +1,29 @@
+.product-details {
+    /* border: 1px solid red; */
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding-top: 0.5rem;
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+    border: 1px solid rgb(104, 223, 157);
+}
+
+.product-details h3 {
+    text-align: center;
+}
+
+.product-details-card {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.product-details-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}

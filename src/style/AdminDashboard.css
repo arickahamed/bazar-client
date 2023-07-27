@@ -1,0 +1,11 @@
+.dashboard-bazar {
+    border: 1px solid rgb(119, 114, 114);
+    border-radius: 5px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.dashboard-bazar h2 {
+    text-align: center;
+}

@@ -1,0 +1,21 @@
+.search {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.search h2 {
+    text-align: center;
+}
+
+.search-product {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.product-details-card {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+    max-width: 80%;
+    margin: 1rem auto;
+}

@@ -1,0 +1,23 @@
+.home-page {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.home-page-products {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 1rem auto;
+}
+
+.add-cart-button {
+    width: 100%;
+}
+
+.home-loader {
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

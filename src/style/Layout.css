@@ -1,0 +1,22 @@
+.layout {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    margin-bottom: 1rem;
+    z-index: 1;
+}
+
+main {
+    margin-bottom: 0.8rem;
+}
+
+.layout-footer {
+    margin-top: auto;
+}

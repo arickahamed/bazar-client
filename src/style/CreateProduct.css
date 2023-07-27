@@ -1,0 +1,26 @@
+.create-product {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.create-product form {
+    width: 100%;
+    margin: 0.5rem auto;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-product h3 {
+    text-align: center;
+}
+
+.category-option Select {
+    border: 1px solid blue;
+}
+
+.product-img-show img {
+    width: 100%;
+}
