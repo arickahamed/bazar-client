@@ -44,6 +44,7 @@ const HomePage = () => {
 
     return (
         <Layout title="Bazar-Your Shop">
+            {console.log(process.env.REACT_APP_API)};
             <div className="home-page">
                 <div className="filters">
                     <SearchInput />
