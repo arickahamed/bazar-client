@@ -11,9 +11,9 @@ import { addAllProducts, addProduct } from "../redux/reducer/cartSlice";
 import "../style/Home.css";
 import "../style/Products.css";
 
-dotenv.config();
 
 const HomePage = () => {
+    dotenv.config();
 
     const [products, setProducts] = useState([]);
     const dispatch = useDispatch();
