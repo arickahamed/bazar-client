@@ -18,6 +18,8 @@ const HomePage = () => {
     const [products, setProducts] = useState([]);
     const dispatch = useDispatch();
 
+    console.log(process.env.REACT_APP_API);
+
     // get products
     const getAllProducts = async () => {
         try {
