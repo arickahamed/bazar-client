@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import Layout from "../components/Layout";
 import SearchInput from "../components/form/SearchInput";
 import Loader from "../components/loader/Loader";
+import SimpleSlider from "../components/slider/Slider";
 import { addAllProducts, addProduct } from "../redux/reducer/cartSlice";
 import "../style/Home.css";
 import "../style/Products.css";
@@ -48,6 +49,7 @@ const HomePage = () => {
                 <div className="filters">
                     <SearchInput />
                 </div>
+                <SimpleSlider />
                 <div className="home-page-products">
                     {products.length !== 0 ? (
                         products.map((p) => (

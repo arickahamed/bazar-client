@@ -1,0 +1,11 @@
+.Slider {
+    margin-top: 1rem;
+    /* border: 1px solid red; */
+    /* display: flex; */
+    /* overflow: hidden; */
+}
+
+.Slider img {
+    height: 25vh;
+    width: 100%;
+}
