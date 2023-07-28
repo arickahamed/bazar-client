@@ -5,7 +5,13 @@
     /* overflow: hidden; */
 }
 
-.Slider img {
+.Slider div {
     height: 25vh;
+    width: 97%;
+    margin: 0 auto;
+}
+
+.Slider div img {
+    height: 100%;
     width: 100%;
 }
