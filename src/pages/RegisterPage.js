@@ -15,7 +15,7 @@ const RegisterPage = () => {
     const [role, setRole] = useState();
     const navigate = useNavigate();
     const handleSignUp = async () => {
-        console.log(process.env.REACT_APP_API);
+        // console.log(process.env.REACT_APP_API);
         try {
             const res = await axios.post(
                 `${process.env.REACT_APP_API}/app/v1/auth/register`,

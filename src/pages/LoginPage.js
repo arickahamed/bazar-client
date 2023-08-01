@@ -12,6 +12,7 @@ const LoginPage = () => {
     const navigate = useNavigate();
     const [email, setEmail] = useState();
     const [password, setPassword] = useState();
+    console.log(`${process.env.REACT_APP_API}/app/v1/auth/login`);
     const handleLogin = async () => {
         try {
             const res = await axios.post(
